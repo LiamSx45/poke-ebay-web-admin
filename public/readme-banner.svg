@@ -1,0 +1,40 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pokemon eBay Web Admin</title>
+  <desc id="desc">A colorful dashboard banner for the Pokemon eBay Web Admin README.</desc>
+  <rect width="1280" height="420" rx="32" fill="#0f172a"/>
+  <path d="M0 0H1280V420H0V0Z" fill="url(#paint0_linear)"/>
+  <circle cx="1060" cy="96" r="172" fill="#38bdf8" fill-opacity="0.20"/>
+  <circle cx="144" cy="338" r="210" fill="#2dd4bf" fill-opacity="0.16"/>
+  <circle cx="1174" cy="340" r="120" fill="#fbbf24" fill-opacity="0.20"/>
+  <rect x="78" y="72" width="1124" height="276" rx="28" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+  <rect x="112" y="112" width="92" height="92" rx="22" fill="#ffffff"/>
+  <path d="M158 132C144.745 132 134 142.745 134 156C134 169.255 144.745 180 158 180C171.255 180 182 169.255 182 156C182 142.745 171.255 132 158 132ZM158 143C165.18 143 171 148.82 171 156C171 163.18 165.18 169 158 169C150.82 169 145 163.18 145 156C145 148.82 150.82 143 158 143Z" fill="#0f172a"/>
+  <path d="M134 156H182" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M158 152C155.791 152 154 153.791 154 156C154 158.209 155.791 160 158 160C160.209 160 162 158.209 162 156C162 153.791 160.209 152 158 152Z" fill="#0f172a"/>
+  <text x="234" y="134" fill="#99f6e4" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="3">POKEMON TCG LISTING ADMIN</text>
+  <text x="232" y="196" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">Pokemon eBay Web Admin</text>
+  <text x="234" y="238" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="500">Search cards, browse sets, and generate clean eBay listing copy.</text>
+  <g>
+    <rect x="234" y="276" width="142" height="42" rx="21" fill="#14b8a6"/>
+    <text x="264" y="304" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Next.js</text>
+    <rect x="392" y="276" width="138" height="42" rx="21" fill="#2563eb"/>
+    <text x="422" y="304" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Routes</text>
+    <rect x="546" y="276" width="176" height="42" rx="21" fill="#f59e0b"/>
+    <text x="576" y="304" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">TCG Data</text>
+  </g>
+  <g opacity="0.98">
+    <rect x="870" y="116" width="232" height="186" rx="18" fill="#ffffff"/>
+    <rect x="894" y="140" width="184" height="18" rx="9" fill="#e2e8f0"/>
+    <rect x="894" y="176" width="148" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="894" y="204" width="184" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="894" y="232" width="112" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="894" y="264" width="72" height="18" rx="9" fill="#14b8a6"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.45" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+</svg>

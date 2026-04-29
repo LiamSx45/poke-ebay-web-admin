@@ -1,40 +1,87 @@
+<p align="center">
+  <img src="./public/readme-banner.svg" alt="Pokemon eBay Web Admin banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/LiamSx45/poke-ebay-web-admin">
+    <img alt="Repository" src="https://img.shields.io/badge/GitHub-poke--ebay--web--admin-111827?style=for-the-badge&logo=github" />
+  </a>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16.2.4-0f172a?style=for-the-badge&logo=nextdotjs" />
+  <img alt="React" src="https://img.shields.io/badge/React-19.2.5-2563eb?style=for-the-badge&logo=react&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-6.0.3-3178c6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="Pokemon TCG Data" src="https://img.shields.io/badge/Pokemon_TCG_Data-local_index-14b8a6?style=for-the-badge" />
+</p>
+
 # Pokemon eBay Web Admin
 
-A modern Next.js admin dashboard for creating eBay listing copy from Pokemon TCG card data.
+A routed Next.js admin dashboard for turning Pokemon TCG card metadata into eBay listing copy.
 
-The app lets you search cards, browse sets by logo, open full set checklists, and generate listing-ready titles, descriptions, item specifics, keywords, and price references for a selected card.
+Search cards, browse set logos, open full set checklists, and generate listing-ready titles, descriptions, item specifics, keywords, and price references from a selected card.
 
-## Highlights
+## Command Center
 
-- Search Pokemon cards by name, set, number, rarity, or type
-- Browse the full Pokemon TCG set catalog with set logos
-- Open dedicated set pages with complete card checklists
-- Generate eBay-ready listing copy from selected card metadata
-- Copy title, subtitle, description, price, and item specifics
-- Uses local synced data from `PokemonTCG/pokemon-tcg-data`
-- Built as a routed admin app, not a single-page demo
-
-## App Routes
-
-| Route | Purpose |
+| Area | What it does |
 | --- | --- |
-| `/` | Dashboard overview and primary workflows |
-| `/search` | Card search and sorting |
-| `/sets` | Set logo browser |
-| `/sets/[setId]` | Full card checklist for a set |
-| `/listing?card=base1-4` | eBay listing builder for a selected card |
-| `/api/cards` | Card search, set filtering, and id lookup |
-| `/api/sets` | Set catalog API |
+| Card Search | Find cards by name, set, number, rarity, or type |
+| Set Browser | Browse the Pokemon TCG catalog by logo and series |
+| Set Detail | View complete set checklists with all cards |
+| Listing Builder | Generate eBay title, subtitle, description, specifics, and price reference |
+| Local Data Index | Uses a synced compact index from `PokemonTCG/pokemon-tcg-data` |
 
-## Tech Stack
+## Product Flow
 
-- Next.js `16.2.4`
-- React `19.2.5`
-- TypeScript `6.0.3`
-- ESLint `9.39.4`
-- Lucide React icons
+```text
+Search or choose a set
+        |
+        v
+Select a Pokemon card
+        |
+        v
+Review card metadata
+        |
+        v
+Generate eBay copy
+        |
+        v
+Copy fields into eBay
+```
 
-## Getting Started
+## Routes
+
+| Route | Page |
+| --- | --- |
+| `/` | Dashboard overview |
+| `/search` | Search cards and sort results |
+| `/sets` | Browse sets by logo |
+| `/sets/[setId]` | View every card in a set |
+| `/listing?card=base1-4` | Build an eBay listing for a card |
+| `/api/cards` | Search cards, filter by set, or look up a card id |
+| `/api/sets` | Read the synced set catalog |
+
+## Listing Output
+
+The builder creates:
+
+- eBay title with an 80-character target
+- Subtitle
+- Description
+- Item specifics
+- Suggested price reference from available TCGplayer market data
+- Search keywords
+
+Generated copy should still be reviewed against your photos, condition, grading, and eBay category requirements before publishing.
+
+## Stack
+
+| Package | Version |
+| --- | --- |
+| Next.js | `16.2.4` |
+| React | `19.2.5` |
+| TypeScript | `6.0.3` |
+| ESLint | `9.39.4` |
+| Lucide React | `1.14.0` |
+
+## Quick Start
 
 ```bash
 npm install
@@ -44,21 +91,21 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Data Sync
+## Data Pipeline
 
-Card and set metadata is synced from the public [`PokemonTCG/pokemon-tcg-data`](https://github.com/PokemonTCG/pokemon-tcg-data) repository.
+The app syncs card and set metadata from the public [`PokemonTCG/pokemon-tcg-data`](https://github.com/PokemonTCG/pokemon-tcg-data) repository.
 
 ```bash
 npm run sync:cards
 ```
 
-This writes a local searchable index to:
+The sync script writes:
 
 ```text
 data/cards-index.json
 ```
 
-The index is committed so the app works immediately after cloning. Run the sync command whenever you want to refresh against upstream card data.
+That file is committed so the app works immediately after cloning. Run the sync command whenever you want to refresh against upstream Pokemon TCG data.
 
 ## Scripts
 
@@ -70,38 +117,27 @@ The index is committed so the app works immediately after cloning. Run the sync 
 | `npm run lint` | Run ESLint |
 | `npm run sync:cards` | Fetch and rebuild the local Pokemon card index |
 
-## Project Structure
+## Project Map
 
 ```text
 app/
   api/
     cards/          Card search and lookup API
     sets/           Set catalog API
-  components/       Admin UI and client components
+  components/       Admin shell, cards, sets, and listing UI
   lib/              Card types, search, and listing generation
   listing/          Listing builder route
   search/           Card search route
   sets/             Set browser and set detail routes
 data/
   cards-index.json  Synced Pokemon TCG card index
+public/
+  readme-banner.svg README banner artwork
 scripts/
   sync-cards.mjs    GitHub data sync script
 ```
 
-## Listing Generation
-
-The listing builder uses card metadata plus seller inputs to create:
-
-- eBay title with an 80-character target
-- Subtitle
-- Description
-- Item specifics
-- Suggested price reference from available TCGplayer market data
-- Search keywords
-
-Generated copy should still be reviewed against your card photos, condition, grading, and eBay category requirements before publishing.
-
-## Deployment
+## Deploy
 
 This is a standard Next.js app and can be deployed anywhere that supports Next.js, including Vercel.
 
