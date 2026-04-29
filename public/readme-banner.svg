@@ -30,12 +30,12 @@
   </g>
 
   <g>
-    <rect x="884" y="122" width="236" height="184" rx="20" fill="#ffffff"/>
-    <rect x="908" y="148" width="188" height="18" rx="9" fill="#e2e8f0"/>
-    <rect x="908" y="184" width="148" height="12" rx="6" fill="#cbd5e1"/>
-    <rect x="908" y="212" width="188" height="12" rx="6" fill="#cbd5e1"/>
-    <rect x="908" y="240" width="112" height="12" rx="6" fill="#cbd5e1"/>
-    <rect x="908" y="270" width="72" height="18" rx="9" fill="#14b8a6"/>
+    <rect x="934" y="122" width="236" height="184" rx="20" fill="#ffffff"/>
+    <rect x="958" y="148" width="188" height="18" rx="9" fill="#e2e8f0"/>
+    <rect x="958" y="184" width="148" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="958" y="212" width="188" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="958" y="240" width="112" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="958" y="270" width="72" height="18" rx="9" fill="#14b8a6"/>
   </g>
 
   <defs>
