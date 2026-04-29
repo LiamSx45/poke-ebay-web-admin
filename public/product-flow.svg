@@ -1,0 +1,52 @@
+<svg width="960" height="520" viewBox="0 0 960 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Listing workflow</title>
+  <desc id="desc">A compact vertical workflow for finding a card and generating eBay listing copy.</desc>
+
+  <rect width="960" height="520" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="958" height="518" rx="23" stroke="#e5e7eb" stroke-width="2"/>
+
+  <text x="54" y="62" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">Listing workflow</text>
+  <text x="54" y="94" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">A clean path from catalog lookup to eBay-ready copy.</text>
+
+  <line x1="96" y1="146" x2="96" y2="430" stroke="#dbe3ee" stroke-width="4" stroke-linecap="round"/>
+
+  <g>
+    <circle cx="96" cy="154" r="22" fill="#0f766e"/>
+    <text x="96" y="162" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">1</text>
+    <rect x="138" y="122" width="704" height="64" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="166" y="150" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">Find a card</text>
+    <text x="166" y="174" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Search by card details or browse a full set checklist.</text>
+  </g>
+
+  <g>
+    <circle cx="96" cy="222" r="22" fill="#2563eb"/>
+    <text x="96" y="230" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">2</text>
+    <rect x="138" y="190" width="704" height="64" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="166" y="218" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">Select the exact print</text>
+    <text x="166" y="242" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Open the card-specific listing builder from search or a set page.</text>
+  </g>
+
+  <g>
+    <circle cx="96" cy="290" r="22" fill="#334155"/>
+    <text x="96" y="298" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">3</text>
+    <rect x="138" y="258" width="704" height="64" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="166" y="286" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">Review listing inputs</text>
+    <text x="166" y="310" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Confirm condition, finish, grading, language, quantity, and seller notes.</text>
+  </g>
+
+  <g>
+    <circle cx="96" cy="358" r="22" fill="#b45309"/>
+    <text x="96" y="366" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">4</text>
+    <rect x="138" y="326" width="704" height="64" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="166" y="354" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">Generate eBay copy</text>
+    <text x="166" y="378" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Create title, subtitle, description, item specifics, keywords, and price reference.</text>
+  </g>
+
+  <g>
+    <circle cx="96" cy="426" r="22" fill="#16a34a"/>
+    <text x="96" y="434" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">5</text>
+    <rect x="138" y="394" width="704" height="64" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="166" y="422" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">Copy into eBay</text>
+    <text x="166" y="446" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Paste the generated fields into your eBay listing form and review photos before publishing.</text>
+  </g>
+</svg>

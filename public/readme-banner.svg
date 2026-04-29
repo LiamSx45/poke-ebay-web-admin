@@ -26,13 +26,8 @@
     <text x="670" y="257" text-anchor="middle" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="850">TCG Data</text>
   </g>
 
-  <g>
-    <rect x="960" y="82" width="186" height="56" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
-    <text x="984" y="116" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">20,202</text>
-    <text x="1060" y="116" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="650">cards indexed</text>
-
-    <rect x="960" y="154" width="186" height="56" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
-    <text x="984" y="188" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">172</text>
-    <text x="1034" y="188" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="650">sets synced</text>
-  </g>
+  <rect x="930" y="96" width="2" height="128" rx="1" fill="#e5e7eb"/>
+  <text x="970" y="132" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850">Local card index</text>
+  <text x="970" y="168" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">20,202 cards</text>
+  <text x="970" y="198" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">172 synced sets</text>
 </svg>

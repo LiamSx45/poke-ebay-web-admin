@@ -28,23 +28,11 @@ Search cards, browse set logos, open full set checklists, and generate listing-r
 | Listing Builder | Generate eBay title, subtitle, description, specifics, and price reference |
 | Local Data Index | Uses a synced compact index from `PokemonTCG/pokemon-tcg-data` |
 
-## Product Flow
+## Listing Workflow
 
-```text
-Search or choose a set
-        |
-        v
-Select a Pokemon card
-        |
-        v
-Review card metadata
-        |
-        v
-Generate eBay copy
-        |
-        v
-Copy fields into eBay
-```
+<p align="center">
+  <img src="./public/product-flow.svg" alt="Listing workflow from search to eBay copy" width="100%" />
+</p>
 
 ## Routes
 
@@ -132,6 +120,7 @@ app/
 data/
   cards-index.json  Synced Pokemon TCG card index
 public/
+  product-flow.svg  README workflow diagram
   readme-banner.svg README banner artwork
 scripts/
   sync-cards.mjs    GitHub data sync script
